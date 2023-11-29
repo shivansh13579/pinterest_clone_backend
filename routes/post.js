@@ -1,10 +1,15 @@
 const mongoose = require('mongoose');
 
 
+
 const postSchema = new mongoose.Schema({
   postText: {
     type: String,
     required: true,
+  },
+  user: {
+     type: mongoose.Schema.Types.ObjectId,
+     ref:'User'
   },
   createdAt: {
     type: Date,
@@ -16,6 +21,4 @@ const postSchema = new mongoose.Schema({
   },
 });
 
-const Post = mongoose.model('Post', postSchema);
-
-module.exports = Post;
+module.exports = mongoose.model('Post', postSchema);
