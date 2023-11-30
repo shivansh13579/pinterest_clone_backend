@@ -10,38 +10,31 @@ body {
 .container {
   background-color: white;
   width: 480px;
-  height: 650px;
   position: absolute;
   margin: auto;
-  top: 20%;
-  left: 0;
-  bottom: 0;
-  right: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
   border-radius: 10px;
   box-shadow: 2px 2px 3px -1px rgba(0, 0, 0, 0.5);
 }
 .content {
-  width: 56%;
-  position: absolute;
+  width: 56%; 
   margin: auto;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
   text-align: center;
 }
  
 .img1{
   width: 70px;
   position: relative;
-  top: 20px;
+  top: 30px;
 }
 .header {
   font-size: 32px;
   font-weight: 700;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-bottom: 10px;
-  line-height: 46px;
+  line-height: 0.9;
 }
 .detail {
   width: 100%;
@@ -75,7 +68,7 @@ h4 {
   border: hidden;
   border-radius: 20px;
   font-size: 18px;
-  margin: 5px 0px;
+  margin: 3px 0px;
 }
 
 .int {
