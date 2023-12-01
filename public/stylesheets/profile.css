@@ -14,17 +14,17 @@ body {
   .cardpre {
     background-color: #fff;
     border-radius: 5px;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
   .profile-picture {
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     border-radius: 50%;
     overflow: hidden;
-    margin: 0 auto 20px;
+    margin: 0 auto 10px;
   }
   
   .profile-picture img {
@@ -34,26 +34,26 @@ body {
   }
   
   .name {
-    font-size: 24px;
+    font-size: 16px;
     margin: 0;
   }
   
   .username {
-    font-size: 18px;
+    font-size: 16px;
     color: #777;
-    margin: 10px 0;
+    margin: 5px 0;
   }
   
   .tagline,
   .description {
     color: #555;
-    margin: 10px 0;
+    margin: 5px 0;
   }
   
   .button {
     display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
+    padding: 10px 15px;
+    background-color: #f30d19;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -61,6 +61,6 @@ body {
   }
   
   .button:hover {
-    background-color: #0056b3;
+    background-color: #b30000;
   }
   
