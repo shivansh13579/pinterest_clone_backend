@@ -26,16 +26,16 @@
         </div>
     </div>
     <div class="container">
-      <div class="cards">
-        <%= user.posts.forEach(function(post){%>
+      <div class="cards flex">
+        <% user.posts.forEach(function(post) { %>
           <div class="card" style="width: 16rem;">
-            <img src="/images/uploads<%=post.image%>" class="card-img-top" alt="shivam">
+            <img src="/images/uploads/<%= post.image %>" class="card-img-top" alt="shivam">
             <div class="card-body">
-              <h5 class="card-title">All Designs</h5>
+              <h5 class="card-title"><%= post.imageText %></h5>
             </div>
           </div>
-          <%}) %>
-      </div>
+        <% }); %>
+      </div>      
        
     </div>
     

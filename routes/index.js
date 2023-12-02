@@ -33,7 +33,7 @@ router.post('/upload',isLoggedIn, upload.single("file"),async function(req,res,n
 
    user.posts.push(post._id);
    await user.save();
-  res.send("done");
+  res.redirect("/profile");
 });
 
 router.get('/profile',isLoggedIn,async function(req,res,next){
